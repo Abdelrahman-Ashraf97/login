@@ -66,7 +66,7 @@ document.querySelector(".collector p a").addEventListener("click",function(){
   }
   // ============================================ email Validation =================================================
   function emailValidation(){
-    var emailRegex=/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+    var emailRegex=/^[a-zA-Z]\w{3,}$/;
     var check=false;
     if(emailRegex.test(emailInput.value)){
       for(var i=0;i<accountList.length;i++){
