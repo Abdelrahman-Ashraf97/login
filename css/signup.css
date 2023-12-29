@@ -1,0 +1,49 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+.collector h1{
+    color:RGB(23, 162, 184)
+
+}
+body{
+    min-height: 100vh;
+    background-color: #24353F;
+}
+.collector{
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 20px;
+    padding: 50px;
+    width: 60%;
+}
+.collector input{
+    border-radius: 5px !important;
+    background-color: #24353F;
+    color: white !important;
+
+}
+.collector input::placeholder{
+    color: white !important;
+}
+.collector input:focus{
+    background-color: transparent;
+    border-color: #17A2B8;
+    box-shadow: none !important;
+}
+.collector button{
+    border-color: #17A2B8 !important;
+    color: #17A2B8 !important;
+    transition: color 0.5s , background-color 0.5s;
+
+}
+.collector button:hover{
+    background-color: #17A2AD;
+    color:white !important;
+
+}
+.collector p{
+    color:white;
+}
+.collector p a:hover{
+    text-decoration: underline;
+    
+}
