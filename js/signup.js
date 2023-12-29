@@ -69,7 +69,7 @@ document.querySelector(".collector p a").addEventListener("click",function(){
     var emailRegex=/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
     var check=false;
     if(emailRegex.test(emailInput.value)){
-      for(var i =0;i<accountList.length;i++){
+      for(var i=0;i<accountList.length;i++){
         if(accountList[i].email==emailInput.value){
           emailInput.classList.add("is-invalid");
           emailInput.classList.remove("is-valid");
