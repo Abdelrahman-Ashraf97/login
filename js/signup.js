@@ -25,7 +25,7 @@ var emailInput = document.querySelector(".collector input[name='email:']")
   })
 
 document.querySelector(".collector p a").addEventListener("click",function(){
-    window.location.assign("../index.html")
+    window.location.assign("./index.html")
   })
 
  

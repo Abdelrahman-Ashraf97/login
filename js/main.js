@@ -52,7 +52,7 @@
 
     })
     document.querySelector(".collector p a").addEventListener("click",function(){
-        window.location.assign("../signup.html")
+        window.location.assign("./signup.html")
     })
 // ============================================ END EVENTS =================================================== 
 
@@ -67,8 +67,8 @@
         }
         if(passwordValidation()==true &&emailValidation()==true){
 
-            sessionStorage.setItem("sessionaccount",JSON.stringify(account));
-            window.location.assign("../home.html")
+            localStorage.setItem("sessionaccount",JSON.stringify(account));
+            window.location.assign("./home.html")
             
 // ============================================ WRONG EMAIL& EMAIL IS NOT EMPTY=================================================  
         }
